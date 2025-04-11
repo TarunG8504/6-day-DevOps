@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Light Sky Blue */
+    color: #333;
+}
+
+/* Header Navigation */
+header {
+    background-color: #007bff; /* Bootstrap Primary Blue */
+    padding: 10px 20px;
+}
+
+.nav-tabs {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-tabs li {
+    margin: 0 15px;
+}
+
+.nav-tabs a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-tabs a.active {
+    text-decoration: underline;
+}
+
+/* Card Styling */
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White Background */
+    border-radius: 10px;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #007bff; /* Sky Blue */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
